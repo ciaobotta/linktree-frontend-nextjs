@@ -1,6 +1,13 @@
-.container {
-  padding: 0 2rem;
+.buttonColor{
+  color: red;
+
+
 }
+
+.container {
+  max-width: 50%;
+  margin: 2rem;
+} 
 
 .main {
   min-height: 100vh;
@@ -10,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer {
@@ -106,6 +114,26 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+/* New Classes */
+
+.imageBorder{
+  border-style: double;
+  border-color: cyan;
+  border-width: 6.9px;
+  margin: auto;
+
+  
+ 
+
+}
+
+.profilePiccolBorder{
+  /* border-style: dotted; */
+  border-color: rgba(249, 0, 62, 0.783);
+  border-width: 6.969px;
+  
 }
 
 @media (max-width: 600px) {
